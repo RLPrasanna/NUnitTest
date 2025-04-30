@@ -4,3 +4,7 @@
 
 /.vs
 /NUnitTest/.vs
+/NUnitTest/bin/Debug/net8.0
+/NUnitTest.Test/obj
+/NUnitTest.Test/bin/Debug/net8.0
+/NUnitTest/obj
