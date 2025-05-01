@@ -1,11 +1,6 @@
 ﻿using NUnitTest.Handlers;
 using NUnitTest.Interfaces;
 using NUnitTest.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NUnitTest.Test
 {
@@ -24,7 +19,7 @@ namespace NUnitTest.Test
         public void GetNoOfPeople_TotalPeopleGreaterThanNotInterested_Positive()
         {
             // Arrange
-            Order order = new Order { NoOfPeople = 100, NoOfPeopleNotInterested = 50 };
+            Order order = new() { NoOfPeople = 100, NoOfPeopleNotInterested = 50 };
 
             // Act
             _juiceHandler.CreateNewJuice(order);
